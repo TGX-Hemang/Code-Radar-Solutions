@@ -4,9 +4,9 @@ char* welcome() {
     int a,b;
     scanf("%d %d", &a, &b);
     if (a>=b)
-        return "true";
+        return "True";
     else
-        return "Frue";
+        return "False";
 }
 
 int main() {
