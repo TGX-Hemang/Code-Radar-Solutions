@@ -2,7 +2,7 @@
 
 int main() {
     double n;
-    scanf("%df", &n);
-    printf("You entered: %df", n);
+    scanf("%lf", &n);
+    printf("You entered: %lf", n);
     return 0;
 }
