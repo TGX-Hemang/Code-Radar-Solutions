@@ -3,7 +3,7 @@
 char* welcome() {
     int a,b;
     scanf("%d %d", &a, &b);
-    if ()a<b)
+    if (a<b)
         return "True";
     else
         return "False";
