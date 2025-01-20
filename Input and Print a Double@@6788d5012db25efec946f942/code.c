@@ -3,6 +3,6 @@
 int main() {
     double n;
     scanf("%D", &n);
-    printf("You entered: %D", n);
+    printf("You entered: %f", n);
     return 0;
 }
