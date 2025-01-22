@@ -5,6 +5,7 @@ int main() {
     int iter = 0;
     char j = "A";
     scanf("%d", &n);
+    printf("Hello");
     for (int i = 1; i<=n; i++) {
         while (iter<i) {
             printf("%c", j);
