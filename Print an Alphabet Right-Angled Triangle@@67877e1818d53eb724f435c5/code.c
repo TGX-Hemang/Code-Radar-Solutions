@@ -7,6 +7,7 @@ int main() {
     scanf("%d", &n);
     for (int i = 1; i<=n; i++) {
         while (iter<i) {
+            printf("h");
             printf("%c", j);
             j++;
         }
