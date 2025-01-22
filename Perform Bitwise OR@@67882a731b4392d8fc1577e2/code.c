@@ -3,7 +3,7 @@
 int* welcome() {
     int a,b;
     scanf("%d %d", &a, &b);
-    int rt = a||b;
+    int rt = a|b;
     return rt;
 }
 
