@@ -6,6 +6,7 @@ int main() {
     char j = 'A';
     scanf("%d", &n);
     for (int i = 1; i<=n; i++) {
+        printf("hii");
         while (iter<i) {
             printf("h");
             printf("%c", j);
