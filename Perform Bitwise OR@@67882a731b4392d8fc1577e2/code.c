@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-char* welcome() {
+int* welcome() {
     int a,b;
     scanf("%d %d", &a, &b);
-    return "a||b";
+    int rt = a||b;
+    return rt
 }
 
 int main() {
-    printf("%s", welcome());
+    printf("%d", welcome());
     return 0;
 }
