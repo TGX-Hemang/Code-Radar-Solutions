@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 char* welcome() {
-    inta,b,r;
+    int a,b,r;
     scanf("%d %d", &a, &b);
     r = a&b;
     return r;
