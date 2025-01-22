@@ -6,7 +6,7 @@ char* welcome() {
     if ((a>0 && b<0) || (a==b && b==0))
     return "True";
     else
-    return "False"
+    return "False";
 }
 
 int main() {
