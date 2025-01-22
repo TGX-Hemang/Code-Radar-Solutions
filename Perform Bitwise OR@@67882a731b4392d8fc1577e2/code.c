@@ -4,7 +4,7 @@ int* welcome() {
     int a,b;
     scanf("%d %d", &a, &b);
     int rt = a||b;
-    return rt
+    return rt;
 }
 
 int main() {
