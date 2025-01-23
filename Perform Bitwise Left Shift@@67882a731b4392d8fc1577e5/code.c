@@ -3,7 +3,7 @@
 int welcome() {
     int a,b;
     scanf("%d %d", &a, &b);
-    int r = a<<b;
+    int r = a << b;
     return r;
 }
 
