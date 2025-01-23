@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char* welcome() {
+int* welcome() {
     int a,b,c;
     scanf("%d %d %d", &a. &b, &c);
     if (a>b) {
@@ -18,6 +18,6 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
+    printf("%d", welcome());
     return 0;
 }
