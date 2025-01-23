@@ -2,7 +2,7 @@
 
 int* welcome() {
     int a,b,c;
-    scanf("%d %d %d", &a. &b, &c);
+    scanf("%d %d %d", &a, &b, &c);
     if (a>b) {
         if (a>c) 
         return a;
