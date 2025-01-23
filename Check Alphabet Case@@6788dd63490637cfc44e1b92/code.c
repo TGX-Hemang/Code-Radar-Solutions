@@ -12,7 +12,6 @@ char* welcome() {
     else {
         return "Not an Alphabet";
     }
-        
     }
 
 
