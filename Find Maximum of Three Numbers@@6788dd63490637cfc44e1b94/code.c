@@ -17,9 +17,9 @@ int* welcome() {
     }
     else if (c>a){
         if (c>b)
-        return c
+        return c;
         else
-        return b
+        return b;
     }
 }
 
