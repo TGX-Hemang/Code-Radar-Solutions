@@ -1,21 +1,16 @@
 #include <stdio.h>
 
-char* welcome() {
+int main() {
     char a;
     scanf("%c", &a);
     if (a>'A' && a<'Z'){
-        return "Uppercase";
+        printf("Uppercase");
     }
     else if (a>'a' && a<'z'){
-        return "Lowercase";
+        printf("Lowercase");
     }
     else {
-        return "Not an Alphabet";
+        printf("Not an Alphabet");
     }
-    }
-
-
-int main() {
-    printf("%s", welcome());
     return 0;
 }
