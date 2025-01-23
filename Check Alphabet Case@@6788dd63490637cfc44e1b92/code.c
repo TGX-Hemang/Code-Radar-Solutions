@@ -3,7 +3,7 @@
 char* welcome() {
     char a;
     scanf("%c", &a);
-    for (char i = "A"; i<='Z'; i++) {
+    for (char i = 'A'; i<='Z'; i++) {
         if (a==i) {
             return "Uppercase";
             break;
