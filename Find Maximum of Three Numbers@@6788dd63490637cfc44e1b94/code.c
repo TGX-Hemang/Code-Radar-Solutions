@@ -15,6 +15,12 @@ int* welcome() {
         else
         return c;
     }
+    else if (c>a){
+        if (c>b)
+        return c
+        else
+        return b
+    }
 }
 
 int main() {
