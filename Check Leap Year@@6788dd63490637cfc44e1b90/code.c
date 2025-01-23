@@ -3,7 +3,7 @@
 char* welcome() {
     int a;
     scanf("%d", &a);
-    if (a%4==0)
+    if (a%4==0 && a>=2000)
     return "leap Year";
     else
     return "Not a Leap Year";
