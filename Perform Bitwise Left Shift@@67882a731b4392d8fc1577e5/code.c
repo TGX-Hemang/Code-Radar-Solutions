@@ -1,13 +1,8 @@
 #include <stdio.h>
 
-int welcome() {
+int main() {
     int a,b;
     scanf("%d %d", &a, &b);
-    
-    return a <<b;
-}
-
-int main() {
-    printf("%s", welcome());
+    printf("%d", a<<b);
     return 0;
 }
