@@ -5,10 +5,12 @@ char* welcome() {
     scanf("%c", &c);
     if (c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
     return "Vowel";
-    else if (c>=0 && c<=9)
+    else if (c>='0' && c<='9')
     return "Digit";
-    else
+    else if (c>='A' && c<='Z')
     return "Consonant";
+    else
+    return "Special Character";
 }
 
 int main() {
