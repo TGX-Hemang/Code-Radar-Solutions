@@ -6,7 +6,7 @@ char* welcome() {
     if (a==b && a==c)
     return "Equilateral";
     else if ((a==b && a!=c)||(a==c && a!=b))
-    return "isosceles";
+    return "Isosceles";
     else
     return "Scalene";
 }
