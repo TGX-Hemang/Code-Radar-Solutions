@@ -7,7 +7,7 @@ char* welcome() {
     return "Vowel";
     else if (c>='0' && c<='9')
     return "Digit";
-    else if ((c>='A' && c<='Z') || (c>='a' && c<='x'))
+    else if ((c>='A' && c<='Z') || (c>='a' && c<='z'))
     return "Consonant";
     else
     return "Special Character";
