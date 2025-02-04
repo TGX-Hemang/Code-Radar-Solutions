@@ -8,7 +8,7 @@ char* welcome() {
     else if (a==0)
     return "Zero";
     else
-    return "Negative"
+    return "Negative";
 }
 
 int main() {
