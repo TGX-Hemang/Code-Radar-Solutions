@@ -8,7 +8,7 @@ int welcome() {
     if (c=='+') 
     {res = a+b;
     return res;}
-    else if(c=='-')
+    else if (c=='-')
     {res = a-b;
     return res;}
     else if (c=='/')
