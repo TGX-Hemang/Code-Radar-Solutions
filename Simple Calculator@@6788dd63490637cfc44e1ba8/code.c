@@ -9,7 +9,7 @@ int welcome() {
     else if(c=='-')
     return a-b;
     else if (c=='/')
-    return a/b;
+    return (int) a/b;
     else if (c=='*')
     return a*b;
 }
