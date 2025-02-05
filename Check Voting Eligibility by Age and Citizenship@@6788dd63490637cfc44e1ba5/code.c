@@ -10,7 +10,7 @@ char* welcome() {
         return "Not Eligible";
     }
     else 
-    return "not Eligible";
+    return "Not Eligible";
 }
 
 int main() {
