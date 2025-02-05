@@ -4,14 +4,19 @@ int welcome() {
     int a,b;
     char c;
     scanf("%d %d %c", &a, &b, &c);
+    int res;
     if (c=='+') 
-    return a+b;
+    {res = a+b;
+    return res;}
     else if(c=='-')
-    return a-b;
+    {res = a-b;
+    return res;}
     else if (c=='/')
-    return (int) a/b;
+   { res = (int) a/b;
+    return res;}
     else if (c=='*')
-    return a*b;
+    {res = a*b;
+    return res;}
 }
 
 int main() {
