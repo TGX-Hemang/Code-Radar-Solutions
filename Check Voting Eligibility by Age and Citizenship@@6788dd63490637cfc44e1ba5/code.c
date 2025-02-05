@@ -3,8 +3,8 @@
 char* welcome() {
     int age, cit;
     scanf("%d %d", &age, &cit);
-    if (b==1) {
-        if (a>=18)
+    if (cit==1) {
+        if (age>=18)
         return "Eligible";
         else
         return "Not Eligible";
