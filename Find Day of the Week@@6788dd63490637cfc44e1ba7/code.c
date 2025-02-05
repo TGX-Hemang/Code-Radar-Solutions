@@ -3,8 +3,8 @@
 char* welcome() {
     int n;
     scanf("%d", &n);
-    switch(n):
-    case (1):
+    switch(n)
+    {case (1):
     return "Monday";
     break;
     case (2):
@@ -26,7 +26,7 @@ char* welcome() {
     return "Sunday";
     break;
     default:
-    return "Invalid";
+    return "Invalid";}
 }
 
 int main() {
