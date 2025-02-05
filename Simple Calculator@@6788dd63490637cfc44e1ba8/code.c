@@ -12,8 +12,6 @@ int welcome() {
     return a/b;
     else if (c=='*')
     return a*b;
-    else
-    return "Error";
 }
 
 int main() {
