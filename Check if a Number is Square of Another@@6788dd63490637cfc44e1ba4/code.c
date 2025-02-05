@@ -3,7 +3,7 @@
 char* welcome() {
     int a,b;
     scanf("%d %d", &a, &b);
-    if ((a*a) == b)
+    if ((b*b) == a)
     return "Yes";
     else
     return "No";
