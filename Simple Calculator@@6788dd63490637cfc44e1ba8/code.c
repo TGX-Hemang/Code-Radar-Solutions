@@ -6,17 +6,18 @@ int welcome() {
     scanf("%d %d %c", &a, &b, &c);
     int res;
     if (c=='+') 
-    {res = a+b;
-    return res;}
+    res = a+b;
+
     else if (c=='-')
-    {res = a-b;
-    return res;}
+    res = a-b;
+
     else if (c=='/')
-   { res = (int) a/b;
-    return res;}
+    res = (int) a/b;
+
     else if (c=='*')
-    {res = a*b;
-    return res;}
+    res = a*b;
+
+    return res;
 }
 
 int main() {
