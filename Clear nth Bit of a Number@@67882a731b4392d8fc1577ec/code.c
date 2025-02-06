@@ -3,11 +3,14 @@
 int welcome() {
     int num, bit;
     scanf("%d %d", &num, &bit);
-    int num_copy = num;
-    num_copy >>= bit;
-    num_copy &= 0;
+    int num_compl = num;
+    num_compl = num_compl>>bit;
+    num_compl = ~num_compl;
+    // 111 -> 000 -> 111
+    // 111 -> 110 -> 6
+    // 111 -> 101 -> 5
     // num_copy += num;
-    return num_copy;
+    return num_compl;
 
 }
 
