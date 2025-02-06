@@ -2,14 +2,16 @@
 
 int main() {
     int n;
-    int iter = 0;
-    char j = "A";
-    scanf("%d", &n);
-    for (int i = 1; i<=n; i++) {
-        while (iter<i) {
-            printf("%c", j);
-            j++;
+    printf("Enter a number : ");
+        scanf("%d", &n);
+
+    for (int i=1; i<=n; i++) {
+        char c = 'A';
+        for (int j=1; j<=i; j++) {
+            printf("%c ", c);
+            c++;
         }
+        printf("\n");
     }
     return 0;
 }
