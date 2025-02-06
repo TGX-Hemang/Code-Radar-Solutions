@@ -2,19 +2,19 @@
 
 int welcome() {
     int a,b;
-    char c;
-    scanf("%d %d %c", &a, &b, &c);
+    char ch;
+    scanf("%d %d %c", &a, &b, &ch);
     int res;
-    if (c=='+') 
+    if (ch=='+') 
     {res = a+b;}
 
-    else if (c=='-')
+    else if (ch=='-')
    { res = a-b;}
 
-    else if (c=='/')
+    else if (ch=='/')
     {res = (int) a/b;}
 
-    else if (c=='*')
+    else if (ch=='*')
     {res = a*b;}
 
     else 
