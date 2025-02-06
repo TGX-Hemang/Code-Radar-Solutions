@@ -14,8 +14,7 @@ int main() {
         if (b != 0) {
             res = a / b;
         } else {
-            printf("Division by zero error");
-            return 1;
+            printf("error");
         }
     } else if (ch == '*') {
         res = a * b;
