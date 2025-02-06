@@ -7,16 +7,16 @@ int main() {
     int res;
 
     switch(ch) {
-        case ('+'): 
+        case '+': 
         { res = a+b;
             break;}
-        case ('-'):
+        case '-':
             res = a-b;
             break;
-        case ('/'):
+        case '/':
             res = (int) a/b;
             break;
-        case ('*'):
+        case '*':
             res = a*b;
             break;
         default:
