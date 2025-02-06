@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char* welcome() {
+int main() {
     int a,b;
     char ch;
     scanf("%d %d %c", &a, &b, &ch);
@@ -22,9 +22,6 @@ char* welcome() {
         printf("error");
         }
     printf("%d", res);
-}
-
-int main() {
-    printf("%s", welcome());
     return 0;
 }
+
