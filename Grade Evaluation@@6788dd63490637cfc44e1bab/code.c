@@ -14,7 +14,7 @@ char* welcome() {
     else if (c=='F')
     return "Fail";
     else
-    return "Invalid Grade";
+    return "Invalid grade";
 }
 
 int main() {
