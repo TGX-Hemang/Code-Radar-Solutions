@@ -1,29 +1,34 @@
 #include <stdio.h>
 
-int welcome() {
+char* welcome() {
     int a,b;
     char ch;
     scanf("%d %d %c", &a, &b, &ch);
     int res;
-    if (ch=='+') 
-    {res = a+b;}
+    switch(ch){
+    case ('+'): 
+        res = a+b;
+        break;
 
-    else if (ch=='-')
-   { res = a-b;}
+    case ('-')
+        res = a-b;
+        break;
 
-    else if (ch=='/')
-    {res = (int) a/b;}
+    case ('/')
+        res = (int) a/b;
+        break;
 
-    else if (ch=='*')
-    {res = a*b;}
+    case ('*')
+        res = a*b;
+        break;
 
-    else 
-    printf("error");
+    default 
+        return "error"
 
     return res;
-}
+}}
 
 int main() {
-    printf("%d", welcome());
+    printf("%s", welcome());
     return 0;
 }
