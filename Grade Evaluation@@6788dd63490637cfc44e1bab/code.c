@@ -11,8 +11,10 @@ char* welcome() {
     return "Average";
     else if (c=='D')
     return "Below Average";
-    else
+    else if (c=='F')
     return "Fail";
+    else
+    return "Invalid Grade";
 }
 
 int main() {
