@@ -9,10 +9,11 @@ int main() {
         }
         for (int k=1; k<=i; k++) {
             if (k%3==0) 
-            continue;
+            int a;
             else
             printf("%d", k%3);
         }
+        printf("\n");
     }
     return 0;
 }
