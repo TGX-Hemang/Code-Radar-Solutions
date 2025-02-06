@@ -19,9 +19,9 @@ char* welcome() {
         res = a*b;
         break;
     default:
-        return "error";}
-
-    return res;
+        return "error";
+        }
+    return "%d", res;
 }
 
 int main() {
