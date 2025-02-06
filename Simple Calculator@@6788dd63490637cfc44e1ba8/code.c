@@ -23,7 +23,7 @@ char* welcome() {
         break;
 
     default 
-        return "error"
+        return "error";
 
     return res;
 }}
