@@ -20,7 +20,6 @@ int main() {
         res = a * b;
     } else {
         printf("error");
-        return 1;
     }
 
     printf("%d", res);
