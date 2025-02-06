@@ -6,7 +6,7 @@ int welcome() {
     int num_copy = num;
     num_copy >>= bit;
     num_copy &= 0;
-    num_copy += num;
+    // num_copy += num;
     return num_copy;
 
 }
