@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int counter {
     static int count = 1;
     count++;
@@ -9,8 +10,7 @@ int main() {
     int n;
     scanf("%d", &n);
     for (int i=1; i<=n; i++) {
-        for (int j=1; j<=i;j++) {
-            int c = counter();
+        for (int j=1; j<=i; j++) {
             printf("%d ", counter());
         }
         printf("\n");
