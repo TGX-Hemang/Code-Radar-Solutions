@@ -3,18 +3,19 @@
 char* welcome() {
     int n;
     scanf("%d", &n);
-    if (n==1)
-    return "31";
-    else if (n==2)
-    return "28";
-    else if (n%2!=0 && n<=7)
-    return "31";
-    else if (n%2==0 && n<=7)
-    return "30";
-    else if (n%2==0 && n>=8)
-    return "31";
-    else if (n%2!=0 && n>=8)
-    return "30";
+    if (n>=0 && n<=12)
+        {if (n==1)
+        return "31";
+        else if (n==2)
+        return "28";
+        else if (n%2!=0 && n<=7)
+        return "31";
+        else if (n%2==0 && n<=7)
+        return "30";
+        else if (n%2==0 && n>=8)
+        return "31";
+        else if (n%2!=0 && n>=8)
+        return "30";}
     else
     return "Invalid month";
 }
