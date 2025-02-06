@@ -30,6 +30,6 @@ int main() {
         }
         printf("\n");
     }
-    printf("\b");
+
     return 0;
 }
