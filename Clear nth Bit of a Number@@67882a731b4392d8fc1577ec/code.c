@@ -5,7 +5,7 @@ int welcome() {
     scanf("%d %d", &num, &bit);
     int num_compl = num;
     num_compl = num_compl>>bit;
-    num_compl |= 1;
+    num_compl = ~num_compl;
     num_compl <<= bit;
     // 111 -> 000 -> 111
     // 111 -> 110 -> 6
