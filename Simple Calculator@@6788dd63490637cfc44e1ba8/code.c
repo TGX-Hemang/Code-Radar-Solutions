@@ -22,6 +22,7 @@ int main() {
         printf("error");
     }
 
+    if (b!=0)
     printf("%d", res);
     return 0;
 }
