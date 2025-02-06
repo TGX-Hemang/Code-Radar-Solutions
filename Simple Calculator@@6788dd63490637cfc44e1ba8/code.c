@@ -9,20 +9,16 @@ char* welcome() {
     case ('+'): 
         res = a+b;
         break;
-
-    case ('-')
+    case ('-'):
         res = a-b;
         break;
-
-    case ('/')
+    case ('/'):
         res = (int) a/b;
         break;
-
-    case ('*')
+    case ('*'):
         res = a*b;
         break;
-
-    default 
+    default:
         return "error";}
 
     return res;
