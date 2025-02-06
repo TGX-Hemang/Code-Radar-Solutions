@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main() {
     int n;
     scanf("%d", &n);
@@ -10,7 +9,7 @@ int main() {
             printf(" ");
         }
         for (int k=1; k<=i; k++) {
-            printf("%d ", j);
+            printf("%d ", k);
         }
         printf("\n");
     }
