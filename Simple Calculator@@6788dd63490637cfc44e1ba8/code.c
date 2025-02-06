@@ -5,17 +5,17 @@ int welcome() {
     char c;
     scanf("%d %d %c", &a, &b, &c);
     int res;
-    {if (c=='+') 
-    res = a+b;
+    if (c=='+') 
+    {res = a+b;}
 
     else if (c=='-')
-    res = a-b;
+   { res = a-b;}
 
     else if (c=='/')
-    res = (int) a/b;
+    {res = (int) a/b;}
 
     else if (c=='*')
-    res = a*b;}
+    {res = a*b;}
 
     return res;
 }
