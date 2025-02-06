@@ -7,8 +7,8 @@ int main() {
     int res;
     switch(ch){
     case ('+'): 
-        res = a+b;
-        break;
+       { res = a+b;
+        break;}
     case ('-'):
         res = a-b;
         break;
@@ -20,6 +20,7 @@ int main() {
         break;
     default:
         printf("error");
+        break;
         }
     printf("%d", res);
     return 0;
