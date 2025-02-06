@@ -8,8 +8,8 @@ int main() {
 
     switch(ch) {
         case '+': 
-        { res = a+b;
-            break;}
+            res = a+b;
+            break;
         case '-':
             res = a-b;
             break;
