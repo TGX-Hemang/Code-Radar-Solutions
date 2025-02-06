@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int counter {
+int counter() {
     static int count = 1;
     count++;
     return count;
