@@ -23,10 +23,10 @@ char* welcome() {
         break;
 
     default 
-        return "error";
+        return "error";}
 
     return res;
-}}
+}
 
 int main() {
     printf("%s", welcome());
