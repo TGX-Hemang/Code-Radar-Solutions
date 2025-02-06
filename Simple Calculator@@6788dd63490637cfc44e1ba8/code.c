@@ -17,6 +17,9 @@ int welcome() {
     else if (c=='*')
     {res = a*b;}
 
+    else 
+    printf("error");
+
     return res;
 }
 
