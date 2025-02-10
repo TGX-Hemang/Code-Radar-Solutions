@@ -6,7 +6,9 @@ int main() {
     scanf("%d", &n);
     int count =0, temp;
     if (n==0)
-    printf(0);
+    {printf(0);
+    return 0;}
+
     while (n != 0) {
         temp = n%2;
         if (temp==1) 
