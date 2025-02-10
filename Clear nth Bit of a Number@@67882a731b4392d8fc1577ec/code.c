@@ -25,13 +25,14 @@ int main() {
         count++;
         n /= 2;
     }
-    
-for (int i = 0; i < count / 2; i++) {
-    int temp1 = arr[i];
-    arr[i] = arr[count - 1 - i];
-    arr[count - 1 - i] = temp1;
-}
-
+    int temp1;
+    for (int i=count-1; i>=0; i--) {
+        for (int j=0; j<=count; j++) {
+            temp1=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp1;
+        }
+    }
 
     if (arr[count+bit-1]==1)
     arr[count-bit+1] = 0;
@@ -45,6 +46,6 @@ for (int i = 0; i < count / 2; i++) {
         final_num+=1;}
         temp--;
     }
-    printf("%d", final_num);
+    printf("%d", final_num-1);
     return 0;
 }
