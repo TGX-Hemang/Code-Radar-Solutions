@@ -39,9 +39,7 @@ int main() {
     // 01111
     // 111 -? 101
     // 100
-    if (arr[count-bit]==0)
-    arr[count-bit] = 1;
-    else
+    if (arr[count-bit]==1)
     arr[count-bit] = 0;
 
     temp = count;
