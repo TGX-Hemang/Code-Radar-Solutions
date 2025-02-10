@@ -4,6 +4,7 @@
 int main() {
     int n, bit;
     int arr[10];
+    int final_num;
     scanf("%d %d", &n, &bit);
     int count = 0, temp;
     // if (n==0)
@@ -33,8 +34,12 @@ int main() {
     arr[bit] = 1;
     else
     arr[bit] = 0;
+
     for (int k=0; k<=count; k++) {
-        printf("%d", arr[k]);
+        if (arr[k]==1)
+        final_num+=pow(2, count);
+        count--;
     }
+    printf("%d", final_num);
     return 0;
 }
