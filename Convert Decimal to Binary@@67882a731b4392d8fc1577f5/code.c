@@ -5,6 +5,8 @@ int main() {
     int arr[10];
     scanf("%d", &n);
     int count =0, temp;
+    if (n==0)
+    printf(0);
     while (n != 0) {
         temp = n%2;
         if (temp==1) 
@@ -16,6 +18,7 @@ int main() {
         count++;
         n /= 2;
     }
+    
     for (int i=count-1; i>=0; i--) {
         printf("%d", arr[i]);
     }
