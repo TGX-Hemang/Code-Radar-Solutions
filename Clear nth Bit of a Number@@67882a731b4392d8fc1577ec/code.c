@@ -34,11 +34,11 @@ int main() {
     arr[bit] = 1;
     else
     arr[bit] = 0;
-
+    temp = count;
     for (int k=0; k<=count; k++) {
         if (arr[k]==1)
-        {final_num+=pow(2, count);}
-        count--;
+        {final_num+=pow(2, temp);}
+        temp--;
     }
     printf("%d", final_num);
     return 0;
