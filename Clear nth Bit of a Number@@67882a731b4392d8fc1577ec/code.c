@@ -39,6 +39,7 @@ int main() {
 // 18-> 10010 <- 01111
     temp = count;
     for (int k=0; k<=count-1; k++) {
+        if (arr[k]==1)
         {if (temp!=0)
         final_num+=power(2, temp);
         else
