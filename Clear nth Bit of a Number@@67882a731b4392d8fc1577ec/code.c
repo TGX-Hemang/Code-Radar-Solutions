@@ -35,14 +35,15 @@ int main() {
             arr[j]=temp;
         }
     }
-
+    // 10011
+    // 01111
     if (arr[count-bit]==0)
     arr[count-bit] = 1;
     else
     arr[count-bit] = 0;
 
     temp = count;
-    for (int k=0; k<=count; k++) {
+    for (int k=0; k<=count-1; k++) {
         if (arr[k]==1)
         {final_num+= power(2, temp);}
         temp--;
