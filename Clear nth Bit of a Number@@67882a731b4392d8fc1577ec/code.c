@@ -27,9 +27,9 @@ int main() {
     }
     
 for (int i = 0; i < count / 2; i++) {
-    int temp = arr[i];
+    int temp1 = arr[i];
     arr[i] = arr[count - 1 - i];
-    arr[count - 1 - i] = temp;
+    arr[count - 1 - i] = temp1;
 }
 
 
