@@ -38,7 +38,7 @@ int main() {
     arr[count-bit+1] = 0;
 // 18-> 10010 <- 01111
     int temp3 = count;
-    for (int k=0; k<=count-1; k++) {
+    for (int k=0; k<=count; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
         final_num+=power(2, temp3);
