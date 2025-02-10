@@ -37,14 +37,14 @@ int main() {
     if (arr[count+bit-1]==1)
     arr[count-bit+1] = 0;
 // 18-> 10010 <- 01111
-    temp = count;
+    int temp3 = count;
     for (int k=0; k<=count-1; k++) {
         if (arr[k]==1)
-        {if (temp!=0)
-        final_num+=power(2, temp);
+        {if (temp3!=0)
+        final_num+=power(2, temp3);
         else
         final_num+=1;}
-        temp--;
+        temp3--;
     }
     printf("%d", final_num-1);
     return 0;
