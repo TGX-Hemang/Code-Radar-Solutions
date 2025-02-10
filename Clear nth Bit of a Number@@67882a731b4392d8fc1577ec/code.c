@@ -16,7 +16,6 @@ int main() {
     // if (n==0)
     // {printf("0");
     // return 0;}
-
     while (n != 0) {
         temp = n%2;
         if (temp==1) 
@@ -36,10 +35,12 @@ int main() {
             arr[j]=temp;
         }
     }
-    if (arr[bit]==0)
-    arr[bit] = 1;
+
+    if (arr[count-bit]==0)
+    arr[count-bit] = 1;
     else
-    arr[bit] = 0;
+    arr[count-bit] = 0;
+
     temp = count;
     for (int k=0; k<=count; k++) {
         if (arr[k]==1)
