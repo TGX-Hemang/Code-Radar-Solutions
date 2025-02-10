@@ -4,9 +4,9 @@ int main() {
     int n;
     int arr[10];
     scanf("%d", &n);
-    int count =0, temp;
+    int count = 0, temp;
     if (n==0)
-    {printf(0);
+    {printf("0");
     return 0;}
 
     while (n != 0) {
