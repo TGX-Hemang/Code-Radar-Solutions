@@ -14,6 +14,7 @@ int main() {
         {n=n;
         arr[count] = 0;}
         n /= 2;
+        printf("%d", n);
     }
     for (int i=0; i<= count; i++) {
         printf("%d", arr[i]);
