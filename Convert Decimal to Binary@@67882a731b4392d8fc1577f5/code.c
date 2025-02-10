@@ -11,7 +11,7 @@ int main() {
         {n -= 1;
         arr[count] = 1;}
         else 
-        {n=n;
+        {
         arr[count] = 0;}
         count++;
         n /= 2;
