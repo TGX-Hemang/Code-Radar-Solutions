@@ -13,6 +13,7 @@ int main() {
         else 
         {n=n;
         arr[count] = 0;}
+        count++;
         n /= 2;
     }
     for (int i=0; i<= count; i++) {
