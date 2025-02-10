@@ -1,5 +1,5 @@
 #include <stdio.h>
-int power(a,b) {
+int power(int a,int b) {
     int ret=1;
     for (int i=1; i<=b; i++) {
         ret *= a;
