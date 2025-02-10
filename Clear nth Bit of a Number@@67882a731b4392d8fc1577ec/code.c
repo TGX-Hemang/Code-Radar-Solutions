@@ -29,7 +29,10 @@ int main() {
             arr[j]=temp;
         }
     }
-    arr[bit] = ~arr[bit];
+    if (arr[bit]==0)
+    arr[bit] = 1;
+    else
+    arr[bit] = 0;
     for (int k=0; k<=count; k++) {
         printf("%d", arr[k]);
     }
