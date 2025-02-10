@@ -46,6 +46,6 @@ int main() {
         final_num+=1;}
         temp--;
     }
-    printf("%d", final_num);
+    printf("%d", final_num-1);
     return 0;
 }
