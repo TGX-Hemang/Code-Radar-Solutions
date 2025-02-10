@@ -1,5 +1,11 @@
 #include <stdio.h>
-#include <math.h>
+int power(a,b) {
+    int ret=1;
+    for (int i=1; i<=b; i++) {
+        ret *= a;
+    }
+    return ret;
+}
 
 int main() {
     int n, bit;
@@ -37,7 +43,7 @@ int main() {
     temp = count;
     for (int k=0; k<=count; k++) {
         if (arr[k]==1)
-        {final_num+=pow(2, temp);}
+        {final_num+= power(2, temp);}
         temp--;
     }
     printf("%d", final_num);
