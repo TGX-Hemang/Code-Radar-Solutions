@@ -37,6 +37,8 @@ int main() {
     }
     // 10011
     // 01111
+    // 111 -? 101
+    // 100
     if (arr[count-bit]==0)
     arr[count-bit] = 1;
     else
@@ -45,7 +47,10 @@ int main() {
     temp = count;
     for (int k=0; k<=count-1; k++) {
         if (arr[k]==1)
-        {final_num+= power(2, temp);}
+        {if (temp!=0)
+        final_num+= power(2, temp);
+        else
+        final_num+=1;}
         temp--;
     }
     printf("%d", final_num);
