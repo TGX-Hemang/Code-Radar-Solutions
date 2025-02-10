@@ -4,7 +4,7 @@
 int main() {
     int n, bit;
     int arr[10];
-    int final_num;
+    int final_num=0;
     scanf("%d %d", &n, &bit);
     int count = 0, temp;
     // if (n==0)
