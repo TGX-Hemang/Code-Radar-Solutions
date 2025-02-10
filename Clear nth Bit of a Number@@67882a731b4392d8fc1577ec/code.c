@@ -26,13 +26,12 @@ int main() {
         n /= 2;
     }
     
-    for (int i=count-1; i>=0; i--) {
-        for (int j=0; j<=count; j++) {
-            temp=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
-        }
-    }
+for (int i = 0; i < count / 2; i++) {
+    int temp = arr[i];
+    arr[i] = arr[count - 1 - i];
+    arr[count - 1 - i] = temp;
+}
+
 
     if (arr[count+bit-1]==1)
     arr[count-bit+1] = 0;
