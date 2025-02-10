@@ -2,8 +2,9 @@
 
 int main() {
     int n;
+    int arr[10];
     scanf("%d", &n);
-    int temp, count =0;
+    int count =0, temp;
     while (n != 0) {
         temp = n%2;
         if (temp==1) 
