@@ -6,9 +6,9 @@ int main() {
     int arr[10];
     scanf("%d %d", &n, &bit);
     int count = 0, temp;
-    if (n==0)
-    {printf("0");
-    return 0;}
+    // if (n==0)
+    // {printf("0");
+    // return 0;}
 
     while (n != 0) {
         temp = n%2;
