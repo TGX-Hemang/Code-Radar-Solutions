@@ -37,7 +37,7 @@ int main() {
 
     for (int k=0; k<=count; k++) {
         if (arr[k]==1)
-        final_num+=pow(2, count);
+        {final_num+=pow(2, count);}
         count--;
     }
     printf("%d", final_num);
