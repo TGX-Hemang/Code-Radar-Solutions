@@ -24,7 +24,9 @@ int main() {
     
     for (int i=count-1; i>=0; i--) {
         for (int j=0; j<=count; j++) {
+            temp=arr[i];
             arr[i]=arr[j];
+            arr[j]=temp;
         }
     }
     arr[bit] = ~arr[bit];
