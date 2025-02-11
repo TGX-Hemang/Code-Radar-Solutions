@@ -29,19 +29,21 @@ int main() {
     }
     
     if (arr[bit]==1)
-    arr[bit] -=1;
+    arr[bit]-=1;
+    else 
+    arr[bit]+=1;
 
-//     int temp1;
-//     for (int i = 0; i < count / 2; i++) {
-//     temp1 = arr[i];
-//     arr[i] = arr[count - 1 - i];
-//     arr[count - 1 - i] = temp1;
-// }
-//     if (bit<=count)
-//     {if (arr[count-bit-1]==1)
-//     arr[count-bit-1] = 0;
-//     else
-//     arr[count-bit-1] = 1;}
+    int temp1;
+    for (int i = 0; i < count / 2; i++) {
+    temp1 = arr[i];
+    arr[i] = arr[count - 1 - i];
+    arr[count - 1 - i] = temp1;
+}
+    // if (bit<=count)
+    // {if (arr[count-bit-1]==1)
+    // arr[count-bit-1] = 0;
+    // else
+    // arr[count-bit-1] = 1;}
 
 
     int temp3 = count-1;
