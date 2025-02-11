@@ -31,9 +31,8 @@ int main() {
         n /= 2;
     }
 
-    if (bit==count) {
-        arr[count]=1;
-    }
+    if (bit>count)
+    arr[bit]=1;
 
     int temp1;
     for (int i = 0; i < count / 2; i++) {
