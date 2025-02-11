@@ -12,7 +12,7 @@ int main() {
     long int n;
     int arr[100];
     scanf("%ld", &n);
-    int count = 0, temp;
+    int count = 0, zero=0, temp;
 
     while (n != 0) {
         temp = n%2;
@@ -25,10 +25,19 @@ int main() {
         count++;
         n /= 2;
     }
-
+    for (int i=1; i<=count; i++) {
+        if (arr[i]==1)
+        break;
+        else 
+        zero+=1;
+    }
     if (arr[1]==1)
     printf("0");
     else
-    printf("%d", count-1);  
+    {
+        if (arr[1]==0)
+        printf("%d", zero);
+        else
+        printf("%d", count-1); } 
     return 0;
 }
