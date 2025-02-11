@@ -49,8 +49,8 @@ int main() {
     arr[count - 1 - i] = temp1;
 }
 
-    int temp3 = count-1;
-    for (int k=0; k<=count; k++) {
+    int temp3 = 31;
+    for (int k=0; k<=31; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
         final_num+=power(2, temp3);
