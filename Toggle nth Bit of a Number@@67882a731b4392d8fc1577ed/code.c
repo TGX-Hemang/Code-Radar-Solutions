@@ -28,8 +28,8 @@ int main() {
         n /= 2;
     }
     printf("Binary: ")
-    for (int i=0; i<=31; i++) {
-        printf("%d", arr[i]);
+    for (int ik=0; ik<=31; ik++) {
+        printf("%d", arr[ik]);
     }
 
     if (arr[bit]==1)
@@ -38,10 +38,10 @@ int main() {
     arr[bit]+=1;
 
     printf("Binary: ")
-    for (int i=0; i<=31; i++) {
-        printf("%d", arr[i]);
+    for (int ik=0; ik<=31; ik++) {
+        printf("%d", arr[ik]);
     }
-    
+
     int temp1;
     for (int i = 0; i < count / 2; i++) {
     temp1 = arr[i];
