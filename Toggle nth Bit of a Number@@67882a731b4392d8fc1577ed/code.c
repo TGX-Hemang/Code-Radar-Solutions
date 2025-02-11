@@ -43,10 +43,10 @@ int main() {
     }
 
     int temp1;
-    for (int i = 0; i < count / 2; i++) {
+    for (int i = 0; i < 32 / 2; i++) {
     temp1 = arr[i];
-    arr[i] = arr[count - 1 - i];
-    arr[count - 1 - i] = temp1;
+    arr[i] = arr[32 - 1 - i];
+    arr[32 - 1 - i] = temp1;
 }
     printf("\nBinary: ");
     for (int ik=0; ik<=31; ik++) {
