@@ -48,12 +48,6 @@ int main() {
     arr[i] = arr[count - 1 - i];
     arr[count - 1 - i] = temp1;
 }
-    // if (bit<=count)
-    // {if (arr[count-bit-1]==1)
-    // arr[count-bit-1] = 0;
-    // else
-    // arr[count-bit-1] = 1;}
-
 
     int temp3 = 31;
     for (int k=0; k<=31; k++) {
