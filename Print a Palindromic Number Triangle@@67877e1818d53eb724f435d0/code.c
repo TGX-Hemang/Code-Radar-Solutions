@@ -7,11 +7,7 @@ int main() {
         for (int j=n; j>=i; j++) {
             printf(" ");
         }
-        for (int k=1; k<=i; k++) {
-            if (k%3==0) 
-            int a;
-            else
-            printf("%d", k%3);
+        
         }
         printf("\n");
     }
