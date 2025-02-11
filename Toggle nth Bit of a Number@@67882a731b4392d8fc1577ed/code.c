@@ -65,6 +65,6 @@ int main() {
         temp3--;
     }
     
-    //printf("%d", final_num);  
+    printf("%d", final_num);  
     return 0;
 }
