@@ -34,7 +34,7 @@ int main() {
         }
     }
     printf("Binary: ");
-    for (int i=0; i<=countl i++) {
+    for (int i=0; i<=count i++) {
         printf("%d", arr[i]);
     }
     if (arr[count-bit]==1)
