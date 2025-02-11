@@ -50,7 +50,7 @@ int main() {
 }
 
     int temp3 = 32;
-    for (int k=0; k<=32; k++) {
+    for (int k=0; k<=count; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
         final_num+=power(2, temp3);
