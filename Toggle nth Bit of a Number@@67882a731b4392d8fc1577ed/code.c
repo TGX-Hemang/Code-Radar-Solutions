@@ -48,7 +48,7 @@ int main() {
     arr[i] = arr[count - 1 - i];
     arr[count - 1 - i] = temp1;
 }
-
+printf("\n%d\n", final_num);
     int temp3 = 31;
     for (int k=0; k<=31; k++) {
         if (arr[k]==1)
@@ -56,7 +56,7 @@ int main() {
         final_num+=power(2, temp3);
         else
         final_num+=1;}
-        printf("\n%d\n", final_num);
+        
         temp3--;
     }
     
