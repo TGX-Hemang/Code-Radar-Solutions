@@ -27,7 +27,7 @@ int main() {
         count++;
         n /= 2;
     }
-    printf("Binary: ")
+    printf("Binary: ");
     for (int ik=0; ik<=30; ik++) {
         printf("%d", arr[ik]);
     }
@@ -37,7 +37,7 @@ int main() {
     else 
     arr[bit]+=1;
 
-    printf("Binary: ")
+    printf("\nBinary: ");
     for (int ik=0; ik<=30; ik++) {
         printf("%d", arr[ik]);
     }
