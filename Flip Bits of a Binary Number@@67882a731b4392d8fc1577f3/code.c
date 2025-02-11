@@ -35,7 +35,7 @@ int main() {
     arr[32 - 1 - i] = temp1;
 }
     for (int o=0; o<=32; o++) {
-        arr[o] != arr[o];
+        arr[o] = !arr[o];
     }
     int temp3 = 31;
     for (int k=0; k<=31; k++) {
