@@ -53,8 +53,8 @@ int main() {
     //     printf("%d", arr[ik]);
     // }
 
-    int temp3 = 32;
-    for (int k=0; k<=32; k++) {
+    int temp3 = 31;
+    for (int k=0; k<=31; k++) {
         if (arr[k]==1)
             {
                 if (temp3!=0)
