@@ -49,7 +49,7 @@ int main() {
     arr[count - 1 - i] = temp1;
 }
 
-    int temp3 = count;
+    int temp3 = count-1;
     for (int k=0; k<=count; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
