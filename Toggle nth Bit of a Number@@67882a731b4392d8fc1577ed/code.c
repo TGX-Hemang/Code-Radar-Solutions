@@ -38,10 +38,10 @@ int main() {
     arr[count - 1 - i] = temp1;
 }
 
-    if (arr[32-bit-1]==1)
-    arr[32-bit-1] = 0;
+    if (arr[32-bit]==1)
+    arr[32-bit] = 0;
     else
-    arr[32-bit-1] = 1;
+    arr[32-bit] = 1;
 
     int temp3 = count-1;
     for (int k=0; k<=count-1; k++) {
