@@ -48,6 +48,10 @@ int main() {
     arr[i] = arr[count - 1 - i];
     arr[count - 1 - i] = temp1;
 }
+    printf("\nBinary: ");
+    for (int ik=0; ik<=31; ik++) {
+        printf("%d", arr[ik]);
+    }
 
     int temp3 = 31;
     for (int k=0; k<=31; k++) {
