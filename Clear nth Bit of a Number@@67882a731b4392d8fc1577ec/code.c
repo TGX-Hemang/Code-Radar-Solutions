@@ -36,9 +36,9 @@ int main() {
 
     if (arr[count-bit-1]==1)
     arr[count-bit-1] = 0;
-
+// allgood until here
     int temp3 = count-1;
-    for (int k=1; k<=count-1; k++) {
+    for (int k=0; k<=count-1; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
         final_num+=power(2, temp3);
