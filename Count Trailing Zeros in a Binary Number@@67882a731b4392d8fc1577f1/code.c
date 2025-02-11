@@ -28,7 +28,7 @@ int main() {
 
     if (arr[1]==1)
     printf("0");
-
+    else
     printf("%d", count-1);  
     return 0;
 }
