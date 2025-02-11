@@ -10,11 +10,14 @@ int power(int a,int b) {
 
 int main() {
     int n, bit;
-    int arr[100];
+    int arr[32];
     int final_num=0;
     scanf("%d %d", &n, &bit);
     int count = 0, temp;
 
+    for (int p=0; p<=32; p++) {
+        arr[i]=0;
+    }
     while (n != 0) {
         temp = n%2;
         if (temp==1) 
