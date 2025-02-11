@@ -36,7 +36,7 @@ int main() {
     else
     {
         if (arr[1]==0)
-        printf("%d", zero);
+        printf("%d", zero+1);
         else
         printf("%d", count-1); } 
     return 0;
