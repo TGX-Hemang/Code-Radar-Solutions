@@ -15,10 +15,6 @@ int main() {
     scanf("%d %d", &n, &bit);
     int count = 0, temp;
 
-    for (int p=0; p<=31; p++) {
-        arr[p]=0;
-    }
-
     while (n != 0) {
         temp = n%2;
         if (temp==1) 
@@ -37,11 +33,18 @@ int main() {
     arr[i] = arr[count - 1 - i];
     arr[count - 1 - i] = temp1;
 }
-
-    if (arr[32-bit]==1)
-    arr[32-bit] = 0;
+    if (bit>count-1) {
+        if (arr[count]==1)
+        arr[count] = 0;
+        else
+        arr[count] = 1;
+    }
+    else {
+    if (arr[count-bit-1]==1)
+    arr[count-bit-1] = 0;
     else
-    arr[32-bit] = 1;
+    arr[count-bit-1] = 1;
+    }
 
     int temp3 = count-1;
     for (int k=0; k<=count-1; k++) {
