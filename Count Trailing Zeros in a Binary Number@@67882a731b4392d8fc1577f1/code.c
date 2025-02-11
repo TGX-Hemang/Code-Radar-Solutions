@@ -25,6 +25,6 @@ int main() {
         count++;
         n /= 2;
     }
-    printf("%d", count);  
+    printf("%d", count-1);  
     return 0;
 }
