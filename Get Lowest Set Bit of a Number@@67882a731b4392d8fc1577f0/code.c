@@ -9,19 +9,22 @@ int power(int a,int b) {
 }
 
 int main() {
-    int n, lsb;
+    int n;
     int arr[100];
     scanf("%d", &n);
-    int count = 0, temp;
+    int count = 0, temp, lsb;
 
     while (n != 0) {
+        if (n<2)
+        arr[count]=1;
+        else {
         temp = n%2;
         if (temp==1) 
         {
         arr[count] = 1;}
         else 
         {
-        arr[count] = 0;}
+        arr[count] = 0;}}
         count++;
         n /= 2;
     }
