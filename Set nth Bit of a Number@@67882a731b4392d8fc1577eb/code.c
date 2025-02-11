@@ -34,8 +34,7 @@ int main() {
 
     if (arr[bit]==1)
     arr[bit]-=1;
-    else 
-    arr[bit]+=1;
+
 
     // printf("\nBinary: ");
     // for (int ik=0; ik<=31; ik++) {
