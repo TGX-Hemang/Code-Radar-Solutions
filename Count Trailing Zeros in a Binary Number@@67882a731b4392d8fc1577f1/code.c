@@ -26,7 +26,7 @@ int main() {
         n /= 2;
     }
 
-    if (arr[0]==1)
+    if (arr[1]==1)
     printf("0");
 
     printf("%d", count-1);  
