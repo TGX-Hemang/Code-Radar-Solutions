@@ -27,8 +27,9 @@ int main() {
         count++;
         n /= 2;
     }
-
-    arr[bit] = ~arr[bit];
+    
+    if (arr[bit]==1)
+    arr[bit] -=1;
 
 //     int temp1;
 //     for (int i = 0; i < count / 2; i++) {
