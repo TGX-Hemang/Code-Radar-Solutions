@@ -25,6 +25,7 @@ int main() {
         count++;
         n /= 2;
     }
+    arr[count]=/0;
     // printf("Binary: ");
     // for (int i=0; i<=count-2; i++) {
     //     printf("%d", arr[i]);
