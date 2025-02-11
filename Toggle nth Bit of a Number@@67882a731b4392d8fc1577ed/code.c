@@ -48,15 +48,14 @@ int main() {
     arr[i] = arr[count - 1 - i];
     arr[count - 1 - i] = temp1;
 }
-printf("\n%d\n", final_num);
-    int temp3 = 31;
-    for (int k=0; k<=31; k++) {
+
+    int temp3 = 32;
+    for (int k=0; k<=32; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
         final_num+=power(2, temp3);
         else
         final_num+=1;}
-        
         temp3--;
     }
     
