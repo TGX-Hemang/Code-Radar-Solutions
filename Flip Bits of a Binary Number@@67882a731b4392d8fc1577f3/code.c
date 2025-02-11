@@ -15,7 +15,8 @@ int main() {
     scanf("%d %d", &n, &bit);
     int count = 0, temp;
     if (n==-1)
-    printf("0");
+    {printf("0");
+    return 0;}
     for (int p1=0; p1<=31; p1++) {
         arr[p1]=0;
     }
