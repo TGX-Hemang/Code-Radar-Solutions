@@ -32,7 +32,14 @@ int main() {
     }
 
     if (bit>count)
-    arr[bit]=1;
+    {
+        for (int i=count; i<=bit; i++) {
+            if (i!=bit)
+            arr[i]=0;
+            else
+            arr[i]=1;
+        }
+    }
 
     int temp1;
     for (int i = 0; i < count / 2; i++) {
