@@ -36,13 +36,14 @@ int main() {
     arr[count - 1 - i] = temp1;
 }
 
-    printf("Binary: ");
-    for (int i=0; i<=count-1; i++) {
-        printf("%d", arr[i]);
-    }
-    if (arr[count-bit-1]==1)
-    arr[count-bit-1] = 0;
-// 18-> 10001 <- 01111
+    // printf("Binary: ");
+    // for (int i=0; i<=count-1; i++) {
+    //     printf("%d", arr[i]);
+    // }
+
+    if (arr[count-bit]==1)
+    arr[count-bit] = 0;
+
     int temp3 = count;
     for (int k=0; k<=count; k++) {
         if (arr[k]==1)
