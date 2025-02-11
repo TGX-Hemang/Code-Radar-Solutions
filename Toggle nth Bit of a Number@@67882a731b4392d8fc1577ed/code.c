@@ -26,7 +26,7 @@ int main() {
         count++;
         n /= 2;
     }
-    if (bit>count) {
+    if (bit>count-1) {
         arr[bit]=1;
     }
     int temp1;
