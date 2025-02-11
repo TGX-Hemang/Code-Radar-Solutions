@@ -14,7 +14,9 @@ int main() {
     int final_num=0;
     scanf("%d %d", &n, &bit);
     int count = 0, temp;
-
+    for (int p=0; p<=31; p++) {
+        int arr[i]=0;
+    }
     while (n != 0) {
         temp = n%2;
         if (temp==1) 
@@ -26,9 +28,7 @@ int main() {
         count++;
         n /= 2;
     }
-    if (bit>count-1) {
-        arr[bit-1]=1;
-    }
+
     int temp1;
     for (int i = 0; i < count / 2; i++) {
     temp1 = arr[i];
