@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int power(int a,int b) {
     int ret=1;
     for (int i=1; i<=b; i++) {
@@ -25,10 +26,7 @@ int main() {
         count++;
         n /= 2;
     }
-    // printf("Binary: ");
-    // for (int i=0; i<=count-2; i++) {
-    //     printf("%d", arr[i]);
-    // }
+
     int temp1;
     for (int i = 0; i < count / 2; i++) {
     temp1 = arr[i];
@@ -36,13 +34,18 @@ int main() {
     arr[count - 1 - i] = temp1;
 }
 
-    // printf("Binary: ");
-    // for (int i=0; i<=count; i++) {
-    //     printf("%d", arr[i]);
-    // }
+    printf("Binary: ");
+    for (int i=0; i<=count; i++) {
+        printf("%d", arr[i]);
+    }
 
     if (arr[count-bit]==1)
     arr[count-bit] = 0;
+
+    printf("\nResulting Binary: ");
+    for (int i=0; i<=count; i++) {
+        printf("%d", arr[i]);
+    }
 
     int temp3 = count;
     for (int k=1; k<=count; k++) {
