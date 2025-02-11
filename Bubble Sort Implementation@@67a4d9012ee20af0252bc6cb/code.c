@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void bubbleSort(int arr[], int n) {
 
     for (int j=0; j<n; j++) {
