@@ -35,7 +35,7 @@ int main() {
     arr[i] = arr[count - 1 - i];
     arr[count - 1 - i] = temp1;
 }
-    if (bit<count)
+    if (bit<=count)
     {if (arr[count-bit-1]==1)
     arr[count-bit-1] = 0;
     else
