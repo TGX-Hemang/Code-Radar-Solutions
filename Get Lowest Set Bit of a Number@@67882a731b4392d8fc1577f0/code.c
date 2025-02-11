@@ -38,6 +38,6 @@ int main() {
             break;
         }
     }
-    printf("%d", arr[lsb]);  
+    printf("%d", lsb);  
     return 0;
 }
