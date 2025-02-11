@@ -39,8 +39,8 @@ int main() {
         printf("%d", arr[i]);
     }
 
-    if (arr[count-bit]==1)
-    arr[count-bit] = 0;
+    if (arr[count-bit-1]==1)
+    arr[count-bit-1] = 0;
 
     printf("\nResulting Binary: ");
     for (int i=0; i<=count; i++) {
