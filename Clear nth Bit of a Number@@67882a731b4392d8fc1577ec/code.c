@@ -25,6 +25,10 @@ int main() {
         count++;
         n /= 2;
     }
+    printf("Binary: ");
+    for (int i=0; i<=count; i++) {
+        printf("%d", arr[i]);
+    }
     int temp1;
     for (int i=count-1; i>=0; i--) {
         for (int j=0; j<=count; j++) {
@@ -33,10 +37,10 @@ int main() {
             arr[j]=temp1;
         }
     }
-    printf("Binary: ");
-    for (int i=0; i<=count; i++) {
-        printf("%d", arr[i]);
-    }
+    // printf("Binary: ");
+    // for (int i=0; i<=count; i++) {
+    //     printf("%d", arr[i]);
+    // }
     if (arr[count-bit]==1)
     arr[count-bit] = 0;
 // 18-> 10001 <- 01111
