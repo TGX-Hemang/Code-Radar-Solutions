@@ -44,8 +44,8 @@ int main() {
     if (arr[count-bit]==1)
     arr[count-bit] = 0;
 
-    int temp3 = count/2;
-    for (int k=0; k<=count/2; k++) {
+    int temp3 = count-1;
+    for (int k=0; k<=count-1; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
         final_num+=power(2, temp3);
