@@ -27,12 +27,20 @@ int main() {
         count++;
         n /= 2;
     }
+    printf("Binary: ")
+    for (int i=0; i<=31; i++) {
+        printf("%d", arr[i]);
+    }
     
     if (arr[bit]==1)
     arr[bit]-=1;
     else 
     arr[bit]+=1;
 
+    printf("Binary: ")
+    for (int i=0; i<=31; i++) {
+        printf("%d", arr[i]);
+    }
     int temp1;
     for (int i = 0; i < count / 2; i++) {
     temp1 = arr[i];
