@@ -40,6 +40,9 @@ int main() {
     arr[count-bit-1] = 0;
     else
     arr[count-bit-1] = 1;}
+    else {
+        arr[bit]=1;
+    }
 
     int temp3 = count-1;
     for (int k=0; k<=count-1; k++) {
