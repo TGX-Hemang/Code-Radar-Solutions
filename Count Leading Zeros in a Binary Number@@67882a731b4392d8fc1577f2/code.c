@@ -9,10 +9,9 @@ int power(int a,int b) {
 }
 
 int main() {
-    int n, bit;
+    long int n;
     int arr[100];
-    int final_num=0;
-    scanf("%d %d", &n, &bit);
+    scanf("%ld", &n);
     int count = 0, temp;
 
     while (n != 0) {
