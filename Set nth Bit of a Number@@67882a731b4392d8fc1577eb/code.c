@@ -32,9 +32,9 @@ int main() {
     //     printf("%d", arr[ik]);
     // }
 
-    if (arr[bit]==1)
-    arr[bit]-=1;
-    else 
+    if (arr[bit]==0)
+    // arr[bit]-=1;
+    // else 
     arr[bit]+=1;
 
     // printf("\nBinary: ");
