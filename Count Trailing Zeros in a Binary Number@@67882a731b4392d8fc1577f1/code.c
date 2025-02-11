@@ -25,6 +25,9 @@ int main() {
         count++;
         n /= 2;
     }
+    if (arr[count-1]==1)
+    printf("0");
+    
     printf("%d", count-1);  
     return 0;
 }
