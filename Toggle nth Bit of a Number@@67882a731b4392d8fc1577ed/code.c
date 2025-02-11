@@ -15,7 +15,7 @@ int main() {
     scanf("%d %d", &n, &bit);
     int count = 0, temp;
 
-    for (int p=0; p<=32; p++) {
+    for (int p=0; p<=31; p++) {
         arr[i]=0;
     }
     while (n != 0) {
