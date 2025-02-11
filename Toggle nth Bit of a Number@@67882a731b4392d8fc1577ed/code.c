@@ -16,8 +16,9 @@ int main() {
     int count = 0, temp;
 
     for (int p=0; p<=31; p++) {
-        arr[i]=0;
+        arr[p]=0;
     }
+
     while (n != 0) {
         temp = n%2;
         if (temp==1) 
