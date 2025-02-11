@@ -30,8 +30,8 @@ int main() {
     //     printf("%d", arr[i]);
     // }
     int temp1;
-    for (int i=count-1; i>=0; i--) {
-        for (int j=0; j<=count-1; j++) {
+    for (int i=count-2; i>=0; i--) {
+        for (int j=0; j<=count-2; j++) {
             temp1=arr[i];
             arr[i]=arr[j];
             arr[j]=temp1;
