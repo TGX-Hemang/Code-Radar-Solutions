@@ -25,7 +25,6 @@ int main() {
         count++;
         n /= 2;
     }
-    arr[count]='/0';
     // printf("Binary: ");
     // for (int i=0; i<=count-2; i++) {
     //     printf("%d", arr[i]);
@@ -45,8 +44,8 @@ int main() {
     if (arr[count-bit]==1)
     arr[count-bit] = 0;
 
-    int temp3 = count-1;
-    for (int k=0; k<=count-1; k++) {
+    int temp3 = count;
+    for (int k=1; k<=count; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
         final_num+=power(2, temp3);
