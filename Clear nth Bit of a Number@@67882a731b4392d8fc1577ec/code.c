@@ -34,7 +34,7 @@ int main() {
         }
     }
 
-    if (arr[count+bit]==1)
+    if (arr[count-bit]==1)
     arr[count-bit] = 0;
 // 26-> 11010 <- 00111
     int temp3 = count;
