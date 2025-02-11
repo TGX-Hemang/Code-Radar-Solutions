@@ -37,7 +37,7 @@ int main() {
     if (arr[count-bit-1]==1)
     arr[count-bit-1] = 0;
 
-    int temp3 = count;
+    int temp3 = count-1;
     for (int k=1; k<=count-1; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
