@@ -56,6 +56,7 @@ int main() {
         final_num+=power(2, temp3);
         else
         final_num+=1;}
+        printf("\n%d\n", final_num);
         temp3--;
     }
     
