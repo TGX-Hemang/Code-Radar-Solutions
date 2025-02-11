@@ -14,9 +14,11 @@ int main() {
     int final_num=0;
     scanf("%d %d", &n, &bit);
     int count = 0, temp;
-    for (int p=0; p<=31; p++) {
-        int arr[p]=0;
+
+    for (int p1=0; p<=31; p++) {
+        int arr[p1]=0;
     }
+
     while (n != 0) {
         temp = n%2;
         if (temp==1) 
