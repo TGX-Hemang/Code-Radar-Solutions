@@ -30,13 +30,12 @@ int main() {
     //     printf("%d", arr[i]);
     // }
     int temp1;
-    for (int i=count-2; i>=0; i--) {
-        for (int j=0; j<=count-2; j++) {
-            temp1=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp1;
-        }
-    }
+    for (int i = 0; i < count / 2; i++) {
+    temp1 = arr[i];
+    arr[i] = arr[count - 1 - i];
+    arr[count - 1 - i] = temp1;
+}
+
     printf("Binary: ");
     for (int i=0; i<=count-1; i++) {
         printf("%d", arr[i]);
