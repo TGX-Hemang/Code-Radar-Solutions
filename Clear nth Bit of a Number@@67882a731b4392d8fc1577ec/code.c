@@ -44,7 +44,7 @@ int main() {
     if (arr[count-bit]==1)
     arr[count-bit] = 0;
 
-    int temp3 = count;
+    int temp3 = count/2;
     for (int k=0; k<=count; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
