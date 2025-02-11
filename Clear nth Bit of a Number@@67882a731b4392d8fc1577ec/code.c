@@ -34,21 +34,11 @@ int main() {
     arr[count - 1 - i] = temp1;
 }
 
-    printf("Binary: ");
-    for (int i=0; i<=count; i++) {
-        printf("%d", arr[i]);
-    }
-
     if (arr[count-bit-1]==1)
     arr[count-bit-1] = 0;
 
-    printf("\nResulting Binary: ");
-    for (int i=0; i<=count; i++) {
-        printf("%d", arr[i]);
-    }
-
     int temp3 = count;
-    for (int k=1; k<=count; k++) {
+    for (int k=1; k<=count-1; k++) {
         if (arr[k]==1)
         {if (temp3!=0)
         final_num+=power(2, temp3);
@@ -56,6 +46,6 @@ int main() {
         final_num+=1;}
         temp3--;
     }
-    printf("%d", final_num);    
+    printf("%d", final_num);  
     return 0;
 }
