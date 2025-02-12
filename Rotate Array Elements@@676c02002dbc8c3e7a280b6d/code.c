@@ -11,7 +11,7 @@ int main() {
 
     int last=arr[shift+1];
 
-    for (int i=len; i>=0; i--) {
+    for (int i=len-1; i>=0; i--) {
         int temp=arr[i];
         arr[i]=arr[i-shift];
         arr[i-shift]=temp;
