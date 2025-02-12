@@ -6,6 +6,7 @@ int main() {
     int arr[len];
     for (int i=0; i<len; i++) {
         scanf("%d", &arr[i]);
+        printf("%d", arr[i]);
     }
     scanf("%d", &shift);
 
