@@ -9,7 +9,11 @@ int main() {
     }
     scanf("%d", &shift);
 
-    int last=arr[shift+1];
+    int j=0, temp[shift];
+    for (int i=len-1; i>shift; i--) {
+        temp[i]=arr[j]
+        j++;
+    }
 
     for (int i=len-1; i>=0; i--) {
         int temp=arr[i];
@@ -17,7 +21,9 @@ int main() {
         arr[i-shift]=temp;
     }
 
-        // arr[shift]=last;
+    for(int i=0; i<shift; i++) {
+        arr[i]=temp[i];
+    }
 
     for (int i=0; i<len; i++) {
         printf("%d\n", arr[i]);
