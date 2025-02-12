@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &shift);
 
     int last=arr[len-1];
-    for (int i=0; i<len; i++) {
+    for (int i=len-1; i>=0; i--) {
         int temp=arr[i];
         arr[i]=arr[i+shift-1];
         arr[i+shift-1]=temp;
