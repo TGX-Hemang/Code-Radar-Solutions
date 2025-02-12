@@ -9,7 +9,8 @@ int main() {
     }
     scanf("%d", &shift);
 
-    int j=0, temp[shift];
+    int j=0;
+    int temp[shift];
     for (int i=len-1; i>shift; i--) {
         temp[i]=arr[j];
         j++;
