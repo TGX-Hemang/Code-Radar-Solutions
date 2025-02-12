@@ -18,7 +18,7 @@ int main() {
         }
         
         }
-        arr[shift]=last;
+        arr[shift-1]=last;
 
     for (int i=0; i<len; i++) {
         printf("%d\n", arr[i]);
