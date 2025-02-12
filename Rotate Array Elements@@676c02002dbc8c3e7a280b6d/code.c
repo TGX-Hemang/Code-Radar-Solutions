@@ -13,8 +13,9 @@ int main() {
     int temp[shift];
     for (int i=len-1; i>shift; i--) {
         temp[i]=arr[j];
+        printf("%d", temp[j]);
         j++;
-        printf("%d", temp[i]);
+        
     }
     printf("%d", temp[i]);
     for (int i=len-1; i>=0; i--) {
