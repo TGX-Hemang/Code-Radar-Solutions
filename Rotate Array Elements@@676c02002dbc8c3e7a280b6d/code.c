@@ -16,8 +16,9 @@ int main() {
             arr[i]=arr[i+1];
             arr[i+1]=temp;
         }
-        arr[shift]=last;
+        
         }
+        arr[shift]=last;
 
     for (int i=0; i<len; i++) {
         printf("%d\n", arr[i]);
