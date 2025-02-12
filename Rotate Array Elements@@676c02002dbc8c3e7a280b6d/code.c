@@ -9,13 +9,15 @@ int main() {
     }
     scanf("%d", &shift);
 
-    int last=arr[len-2];
+    int last=arr[shift];
     for (int p=0; p<=shift; p++)
         {for (int i=len-1; i>=0; i--) {
             int temp=arr[i];
             arr[i]=arr[i+1];
             arr[i+1]=temp;
-        }}
+        }
+        arr[shift]=last;
+        }
 
     for (int i=0; i<len; i++) {
         printf("%d\n", arr[i]);
