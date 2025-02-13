@@ -4,7 +4,7 @@ int main() {
     int n;
     scanf("%d", &n);
     int arr[n];
-    int arr2d[n][2];
+    int arr2d[100][2];
     for (int i=0; i<n; i++) {
         scanf("%d", &arr[i]);
         if (arr[i]==arr2d[j][0])
