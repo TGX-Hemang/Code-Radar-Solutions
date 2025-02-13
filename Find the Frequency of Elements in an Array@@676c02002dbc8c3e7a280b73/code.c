@@ -15,8 +15,8 @@ int main() {
             else {
                 arr2d[j][0]=arr[i];
                 arr2d[j][1]=0; 
-                count++;
-                }}
+               
+                }} count++;
         }
     
     for (int i=0; i<count; i++) {
