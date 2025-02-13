@@ -8,15 +8,15 @@ int main() {
     int count =0;
     for (int i=0; i<n; i++) {
         scanf("%d", &arr[i]);
-
-            if (arr[i]==arr2d[i][0]) {
-                arr2d[i][1]+=1;
+        for (iny j=0; j<n; j++) {
+            if (arr[i]==arr2d[j][0]) {
+                arr2d[j][1]+=1;
                 }
             else {
-                arr2d[i][0]=arr[i];
-                arr2d[i][1]=0; 
+                arr2d[j][0]=arr[i];
+                arr2d[j][1]=0; 
                 count++;
-                }
+                }}
         }
     
     for (int i=0; i<count; i++) {
