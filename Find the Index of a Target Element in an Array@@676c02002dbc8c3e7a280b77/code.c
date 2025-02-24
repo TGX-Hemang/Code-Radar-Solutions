@@ -9,7 +9,7 @@ int main() {
     int number;
     scanf("%d", &number);
     for(int j=0; j<size; j++) {
-        if (j==number)
+        if (arr[j]==number)
         {printf("%d", j);
         return 0;}
     }
