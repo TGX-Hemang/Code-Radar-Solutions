@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    struct students = {
+    struct students {
         int roll_num;
         char name[50];
         float marks;
