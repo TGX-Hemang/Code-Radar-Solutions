@@ -8,6 +8,6 @@ void printPrimesInRange(int a, int b) {
                 break;
             }
         }
-        if (c==r) printf("%d\n", r);
+        if (c==r) printf("%d ", r);
     }
 }
