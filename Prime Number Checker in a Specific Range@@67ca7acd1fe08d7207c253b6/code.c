@@ -1,13 +1,18 @@
+#include <math.h>
+
+int isPrime(int n) {
+    int i;
+    for(i=2;i<sqrt(n); i++) {
+        if(n%i==0) return 0;
+    }
+    return 1;
+}
+
 void printPrimesInRange(int a, int b) {
-    int r,c;
+    int r;
     for(r=a; r<=b; r++) 
     {
-        for(c=2; c<=r-1; c++) {
-            if (r%c==0)
-            {
-                break;
-            }
-        }
-        if (c==r) printf("%d ", r);
+        if (isPrime(r))
+        printf("%d ", r);
     }
 }
