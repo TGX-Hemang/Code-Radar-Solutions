@@ -21,7 +21,7 @@ int main() {
        new_arr[index]=0;
     }
     // output
-    for(i=0;i<n;i++) {
+    for(i=0;i<len;i++) {
         printf("%d ", new_arr[i]);
     }
 }
