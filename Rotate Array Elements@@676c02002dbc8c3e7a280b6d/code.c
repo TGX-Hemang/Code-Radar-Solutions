@@ -9,7 +9,7 @@ int main() {
     }
     scanf("%d", &shift);
     for(i=0;i<len-shift;i++) {
-        new_arr[i+1]=arr[i];
+        new_arr[shift+i]=arr[i];
     }
     for(i=0;i<len;i++) {
         printf("%d\n", new_arr[i]);
