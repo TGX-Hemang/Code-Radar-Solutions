@@ -12,7 +12,7 @@ int main() {
     for(i=0;i<len;i++) {
         if (max<arr[i])
         {max=arr[i];
-        if (max>arr[i+1])
+        if (max>arr[i+1] || max==arr[len-1])
         {printf("%d", max);
         break;}}
     }
