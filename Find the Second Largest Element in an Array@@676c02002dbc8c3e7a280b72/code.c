@@ -6,7 +6,7 @@ int main() {
     int arr[len], i, max;
     for(i=0;i<len;i++) 
         scanf("%d", &arr[i]);
-    if (len<1) {
+    if (len<2) {
         printf("-1");
         return 0;
     }
