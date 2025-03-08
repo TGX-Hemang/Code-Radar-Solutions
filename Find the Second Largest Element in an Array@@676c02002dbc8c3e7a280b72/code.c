@@ -6,7 +6,10 @@ int main() {
     int arr[len], i, max;
     for(i=0;i<len;i++) 
         scanf("%d", &arr[i]);
-
+    if (len<1) {
+        printf("-1");
+        return 0;
+    }
     // get the max value
     max = arr[0];
     int max_index;
@@ -15,11 +18,11 @@ int main() {
         {max=arr[i];
         max_index = i;}
     }
-    max = -999999;
-    arr[max_index]=-121111;
+    int max2=arr[0];
+    arr[max_index]=0;
     for(i=0;i<len;i++) {
-       if (max<arr[i])
-        max=arr[i];
+       if (max2<arr[i])
+        max2=arr[i];
     }
-    printf("%d", max);
+    printf("%d", max2);
 }
