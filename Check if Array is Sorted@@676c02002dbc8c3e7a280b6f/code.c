@@ -3,11 +3,11 @@
 int main() {
     int len;
     scanf("%d", &len);
-    int arr[n],i;
-    for(i=0;i<n;i++) {
-        scanf("%d", &arr[n]);
+    int arr[len],i;
+    for(i=0;i<len;i++) {
+        scanf("%d", &arr[i]);
     }
-    for(i=0;i<n;i++) {
+    for(i=0;i<len;i++) {
         if (arr[i]>arr[i+1])
         {
             printf("Not Sorted");
