@@ -6,9 +6,11 @@ int main() {
     int arr[len],i;
     for(i=0;i<len;i++) {
         scanf("%d", &arr[i]);
-    }
+    } 
+    int index;
     for(i=0;i<len;i++) {
-        if (arr[i]>arr[i+1])
+        index = i+1<len?i+1 : len-1;
+        if (arr[i]>arr[index])
         {
             printf("Not Sorted");
             return 0;
