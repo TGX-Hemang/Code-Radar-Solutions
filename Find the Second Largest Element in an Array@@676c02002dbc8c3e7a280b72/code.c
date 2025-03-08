@@ -19,8 +19,8 @@ int main() {
     for(i=0;i<len;i++) {
         if (i==max_index)
         continue;
-        else if (max<arr[i])
-        max=arr[i];
+        else {if (max<arr[i])
+        max=arr[i];}
     }
     printf("%d", max);
 }
