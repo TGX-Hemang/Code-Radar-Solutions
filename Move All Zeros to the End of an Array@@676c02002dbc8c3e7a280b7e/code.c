@@ -18,7 +18,7 @@ int main() {
 
     // appending all zeroes now
     for(i=index;i<len;i++) {
-       new_arr[index]=0;
+       new_arr[i]=0;
     }
     // output
     for(i=0;i<len;i++) {
