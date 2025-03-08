@@ -11,7 +11,7 @@ int main() {
     for(i=0;i<len-shift;i++) {
         new_arr[shift+i]=arr[i];
     }
-    for(i=shift+1;i<len;i++) {
+    for(i=shift;i<len;i++) {
         new_arr[count] = arr[i];
         count++;
     }
