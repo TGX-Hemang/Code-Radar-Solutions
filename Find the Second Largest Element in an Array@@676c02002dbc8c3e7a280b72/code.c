@@ -15,12 +15,10 @@ int main() {
         {max=arr[i];
         max_index = i;}
     }
-    
+    arr[max_index]=-1212112;
     for(i=0;i<len;i++) {
-        if (i==max_index)
-        continue;
-        else {if (max<arr[i])
-        max=arr[i];}
+       if (max<arr[i])
+        max=arr[i];
     }
     printf("%d", max);
 }
