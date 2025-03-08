@@ -15,8 +15,8 @@ int main() {
         {max=arr[i];
         max_index = i;}
     }
-    max = 0;
-    arr[max_index]=-1212112;
+    max = -999999;
+    arr[max_index]=-121111;
     for(i=0;i<len;i++) {
        if (max<arr[i])
         max=arr[i];
