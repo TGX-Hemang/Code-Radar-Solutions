@@ -19,7 +19,7 @@ int main() {
         max_index = i;}
     }
     int max2=arr[0];
-    arr[max_index]=0;
+    arr[max_index]=-999999999;
     for(i=0;i<len;i++) {
        if (max2<arr[i])
         max2=arr[i];
