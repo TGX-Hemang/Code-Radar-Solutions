@@ -19,9 +19,9 @@ int main() {
         scanf("%d", &array[index]);
     
     int ind=0,r,c, count[10][2];
-    for(r=0;r<10;r++) {
-        for(c=0;c<2;c++) count[r][c]=0;
-    }
+    //for(r=0;r<10;r++) {
+    //    for(c=0;c<2;c++) count[r][c]=0;
+    //}
     
     for(r=0;r<size;r++) {
             int index= isInArray(array[r], count);
