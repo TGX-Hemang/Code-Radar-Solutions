@@ -3,8 +3,7 @@
 int isInArray(int target, int arr[10][2]) {
     int i;
     for(i=0;i<10;i++) {
-        if (target==arr[i][0]) 
-            return i;
+        if (target==arr[i][0]) return i;
     }
     return -1;
 }
@@ -18,13 +17,13 @@ int main() {
     for(index=0;index<size;index++) 
         scanf("%d", &array[index]);
     
-    int ind=0,r,c, count[10][2];
+    int ind=0, r, c, count[10][2];
     for(r=0;r<10;r++) {
-        for(c=0;c<2;c++) count[r][c]=0;
+        for(c=0;c<2;c++) count[r][c]=-999;
     }
     
     for(r=0;r<size;r++) {
-            int index= isInArray(array[r], count);
+            int index = isInArray(array[r], count);
             if (index==(-1)) 
             {
                 count[ind][0]=array[r];
@@ -35,6 +34,6 @@ int main() {
     }
 
     for(c=0;c<size;c++) {
-            if (count[c][1]!=0) printf("%d %d\n", count[c][0], count[c][1]);
+            if (count[c][1]>0) printf("%d %d\n", count[c][0], count[c][1]);
     }
 }
