@@ -27,7 +27,7 @@ int main() {
             int index= isInArray(array[r], count);
             if (index==(-1)) 
             {
-                count[ind][0]+=array[r];
+                count[ind][0]=array[r];
                 count[ind][1]=1;
                 ind++;
             }
