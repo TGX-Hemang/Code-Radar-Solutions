@@ -17,7 +17,7 @@ int main() {
     int i;
     for(i=0;i<len;i++)
     {
-        scanf("%d", &arr[i])
+        scanf("%d", &arr[i]);
         count += (isPalindrome(arr[i]))? 1: 0;
     }
     printf("%d", count);
