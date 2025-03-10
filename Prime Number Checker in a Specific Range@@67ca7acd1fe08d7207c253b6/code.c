@@ -10,10 +10,12 @@ int isPrime(int n) {
 }
 
 void printPrimesInRange(int a, int b) {
-    int r;
+    int r, count=0;
     for(r=a; r<=b; r++) 
     {
         if (isPrime(r))
-        printf("%d ", r);
+        {printf("%d ", r);
+        count++;}
     }
+    if (count==0) printf("No prime numbers");
 }
