@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int isPalindrome(int num) {
     int r, result, orginalnum = num;
 
