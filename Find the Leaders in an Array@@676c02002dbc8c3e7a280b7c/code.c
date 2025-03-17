@@ -11,4 +11,5 @@ int main() {
         if (a[i]>a[i-1]&&a[i]>a[(i+1<n)?i+1: n-1])
             printf("%d ", a[i]);
     }
+    printf("%d", a[n-1]);
 }
