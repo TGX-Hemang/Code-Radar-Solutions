@@ -9,7 +9,7 @@ int main() {
     max=1;
     for(i=0;i<n;i++) {
         for(j=0;j<n;j++) {
-            if (max<a[i]*a[j])
+            if (max<a[i]*a[j] && i!=j)
                 max = a[i]*a[j];
         }
     }
