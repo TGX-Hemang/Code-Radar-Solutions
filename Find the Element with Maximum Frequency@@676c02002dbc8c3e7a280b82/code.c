@@ -11,7 +11,7 @@ int isInArray(int target, int arr[10][2]) {
 
 int main() {
     int size;
-    printf("Enter the size of array: ");
+    //printf("Enter the size of array: ");
         scanf("%d", &size);
 
     int array[size], index;
