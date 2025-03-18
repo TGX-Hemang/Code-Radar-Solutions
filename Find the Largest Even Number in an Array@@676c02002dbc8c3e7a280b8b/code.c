@@ -19,6 +19,6 @@ int largest_even(int *p, int n) {
             {max=*(p+i);
             count++;}
     }
-    return (!count)?max: -1;
+    return (count)?max: -1;
 }
 
