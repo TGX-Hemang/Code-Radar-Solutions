@@ -10,11 +10,11 @@ int main(){
     scanf("%d" , &k);
     int i, temp[k]; 
     int count=0;
-    for(i=num;i>k;i--){
+    for(i=num-1;i>k+1;i--){
         temp[count++]=arr[i];
     }
     for(i=0;i<k;i++) {
-        arr[k]=arr[i];
+        arr[count++]=arr[i];
     }
     for(i=0;i<k;i++) {
         arr[i]=temp[i];
