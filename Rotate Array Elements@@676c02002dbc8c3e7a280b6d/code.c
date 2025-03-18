@@ -10,7 +10,7 @@ int main(){
     scanf("%d" , &k);
     int i, temp[k]; 
     int count=0;
-    for(i=num-1;i>k+1;i--){
+    for(i=num-1;i>k;i--){
         temp[count++]=arr[i];
     }
     for(i=0;i<k;i++) {
