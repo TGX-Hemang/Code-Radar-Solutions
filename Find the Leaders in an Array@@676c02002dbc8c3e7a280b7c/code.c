@@ -17,7 +17,7 @@ int main() {
 void leaders(int *rp, int *p, int n) {
     int i;
     for(i=0;i<n;i++) {
-        if(*(p+i)>*(p-((p-i<0)?0: 1)) && *(p+i)>*(p+((p+i<n)?i: 0)))
+        if(*(p+i)>*(p-((*(p-i)<0)?0: 1)) && *(p+i)>*(p+((*(p+i)<n)?i: 0)))
         *(rp++)=*(p+i);
     }
 }
