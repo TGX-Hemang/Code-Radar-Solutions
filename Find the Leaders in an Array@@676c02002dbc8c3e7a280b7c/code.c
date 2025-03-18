@@ -11,7 +11,7 @@ int main() {
     int retarr[]={0};
     leaders(&retarr[0], &arr[0], n);
     for(i=0;i<n;i++)
-        printf("%d", retarr[i]);
+        printf("%d ", retarr[i]);
 }
 
 void leaders(int *rp, int *p, int n) {
