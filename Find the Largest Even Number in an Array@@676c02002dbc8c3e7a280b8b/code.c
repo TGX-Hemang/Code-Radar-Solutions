@@ -15,9 +15,8 @@ int largest_even(int *p, int n) {
     int i;
     int max = *p;
     for(i=0;i<n;i++) {
-        if (*(p+i)%2==0 && max<*(p+i))
-            max=*(p+i);
+        if (*(p+i)%2==0 && max<*(p+i)) max=*(p+i);
     }
-    return max;
+    return (max==*p && !max%2)?-1: max;
 }
 
