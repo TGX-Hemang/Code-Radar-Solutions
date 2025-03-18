@@ -13,11 +13,12 @@ int main() {
 
 int largest_even(int *p, int n) {
     int i;
-    int max = -99;
+    int max = *p, count=0;
     for(i=0;i<n;i++) {
         if (*(p+i)%2==0 && max<*(p+i))
-            max=*(p+i);
+            {max=*(p+i);
+            count++;}
     }
-    return max;
+    return (!count)?max: -1;
 }
 
