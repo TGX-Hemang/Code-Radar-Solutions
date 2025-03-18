@@ -8,11 +8,19 @@ int main(){
     }
     int k;
     scanf("%d" , &k);
-    for(int j = num-k; j<num; j++){
-        printf("%d\n" , arr[j]);
+    int i, temp[k]; 
+    int count=0;
+    for(i=n;i>k;i--){
+        temp[couont++]=arr[i];
     }
-    for(int i = 0; i<num-k; i++){
-        printf("%d\n" , arr[i]);
+    for(i=0;i<count;i++) {
+        arr[count++]=arr[i];
+    }
+    for(i=0;i<k;i++) {
+        arr[i]=temp[i];
+    }
+    for(i=0;i<n;i++) {
+        printf("%d\n", arr[i]);
     }
     return 0;
 }
