@@ -1,16 +1,23 @@
 #include <stdio.h>
 
 int main() {
+    int largest_even(int *p, int n);
     int n, k;
-    scanf("%d %d", &n, &k);
-    int count=0, a[n], i;
-    int max=a[0];
-    for(i=0;i<n;i++) {
-        scanf("%d", &a[i]);
-    }
-    for(i=0;i<n;i++) {
-        if (a[i]%2==0 && max<a[i])
-            max=a[i];
-    }
-    printf("%d", max);
+    scanf("%d", &n);
+    int arr[n], i, j;
+    for(i=0;i<n;i++)
+        scanf("%d", &arr[i]);
+    printf("%d", largest_even(&arr[0], n));
+
 }
+
+int largest_even(int *p, int n) {
+    int i;
+    int max = *p;
+    for(i=0;i<n;i++) {
+        if (*(p+i)%2==0 && max<*(p+i))
+            max=*(p+i);
+    }
+    return max;
+}
+
