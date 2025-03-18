@@ -10,8 +10,8 @@ int main(){
     scanf("%d" , &k);
     int i, temp[k]; 
     int count=0;
-    for(i=n;i>k;i--){
-        temp[couont++]=arr[i];
+    for(i=num;i>k;i--){
+        temp[coont++]=arr[i];
     }
     for(i=0;i<count;i++) {
         arr[count++]=arr[i];
@@ -19,7 +19,7 @@ int main(){
     for(i=0;i<k;i++) {
         arr[i]=temp[i];
     }
-    for(i=0;i<n;i++) {
+    for(i=0;i<num;i++) {
         printf("%d\n", arr[i]);
     }
     return 0;
