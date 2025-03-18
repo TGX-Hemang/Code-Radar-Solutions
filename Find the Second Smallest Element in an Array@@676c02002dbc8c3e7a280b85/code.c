@@ -23,5 +23,5 @@ int smallest_2nd(int *p, int n) {
         if (min2>*(p+i) && min2>min)
             min2=*(p+i);
     }
-    return min;
+    return min2;
 }
