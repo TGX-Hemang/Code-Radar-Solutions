@@ -16,7 +16,7 @@ int main(){
     for(i=0;i<k;i++) {
         arr[count++]=arr[i];
     }
-    for(i=0;i<k;i++) {
+    for(i=0;i<=k;i++) {
         arr[i]=temp[i];
     }
     for(i=0;i<num;i++) {
