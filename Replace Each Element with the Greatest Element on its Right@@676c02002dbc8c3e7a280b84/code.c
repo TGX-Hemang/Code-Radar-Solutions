@@ -21,7 +21,7 @@ void REWGETR(int *rp, int *p, int n) {
         for(j=i+1;j<n;j++) {
             if (max<*(p+j)) max = *(p+j);
         }
-        *(rp+i)=max;
+        *(rp+i)=(max==-999999)?-1: max;
     }
 }
 
