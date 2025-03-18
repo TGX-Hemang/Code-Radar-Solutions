@@ -14,7 +14,7 @@ int main() {
 int smallest_2nd(int *p, int n) {
     int i;
     int min = *p;
-    for(i=0;i<n;i++) {
+    for(i=1;i<n;i++) {
         if (min>*(p+i))
             min=*(p+i);
     }
