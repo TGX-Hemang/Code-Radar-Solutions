@@ -18,9 +18,9 @@ int smallest_2nd(int *p, int n) {
         if (min>*(p+i))
             min=*(p+i);
     }
-    int min2 = *p;  
+    int min2 = 1212121;  
     for(i=0;i<n;i++) {
-        if (min2>*(p+i) && min2>min && min2!=*(p+i))
+        if (min2>*(p+i) && min2>min)
             min2=*(p+i);
     }
     return min2;
