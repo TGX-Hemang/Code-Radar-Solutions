@@ -13,10 +13,10 @@ int main(){
     for(i=k+1;i<num;i++){
         temp[count++]=arr[i];
     }
-    for(i=0;i<k;i++) {
+    for(i=0;i<=k;i++) {
         arr[count++]=arr[i];
     }
-    for(i=0;i<=k;i++) {
+    for(i=0;i<k;i++) {
         arr[i]=temp[i];
     }
     for(i=0;i<num;i++) {
