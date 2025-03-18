@@ -11,7 +11,7 @@ int main() {
     int retarr[n];
     REWGETR(&retarr[0], &arr[0], n);
     for(i=0;i<n;i++)
-        printf("%d", retarr[i]);
+        printf("%d ", retarr[i]);
 }
 
 void REWGETR(int *rp, int *p, int n) {
