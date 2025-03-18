@@ -19,7 +19,7 @@ void REWGETR(int *rp, int *p, int n) {
     for(i=0;i<n;i++) {
         max=-999999;
         for(j=i+1;j<n;j++) {
-            if (max<*(p+j)) max = *(p+i);
+            if (max<*(p+j)) max = *(p+j);
         }
         *(rp+i)=max;
     }
