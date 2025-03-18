@@ -20,7 +20,7 @@ int smallest_2nd(int *p, int n) {
     }
     int min2 = *p;
     for(i=0;i<n;i++) {
-        if (min2>*(p+i) && min2<min)
+        if (min2>*(p+i) && min2>min)
             min2=*(p+i);
     }
     return min2;
