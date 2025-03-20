@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char str[100];
+    char str[10000];
     scanf("%s", &str);
     int i, count=0;
     for(i=0;i<strlen(str);i++) {
