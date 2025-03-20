@@ -13,6 +13,7 @@ int main() {
             count++;
         }
         if (count>1) {count=0;break;}
+        count=0;
     }
     printf("%d", arr[i]);
 }
