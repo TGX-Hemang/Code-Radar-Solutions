@@ -16,7 +16,7 @@ int main() {
             max=count;
             max_i = i;
         }
-        if (count>=max) max=count, max_i=i;
+        if (count>max) max=count, max_i=i;
         count=0;}
     }
     printf("%d", arr[max_i]);
