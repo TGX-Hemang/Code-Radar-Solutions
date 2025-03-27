@@ -1,5 +1,5 @@
 int findPrankReceiver(int frnds, int gifts, int start) {
     int i;
-    for(i=start;i<=gifts, i<=frnds;i++);
+    for(i=start;i<=gifts;i++);
     return i;
 }
