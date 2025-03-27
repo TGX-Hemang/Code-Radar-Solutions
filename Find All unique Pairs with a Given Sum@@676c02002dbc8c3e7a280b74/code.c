@@ -24,6 +24,6 @@ int main() {
     }
     count=0;
     for(i=0;i<n;i++) {
-        printf("%d %d\n", sum_arr[count++]);
+        printf("%d %d\n", sum_arr[count++], sum_arr[count++]);
     }
 }
