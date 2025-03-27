@@ -13,7 +13,7 @@ int main() {
     for(i=0;i<n;i++) 
     scanf("%d", &arr[i]);
     scanf("%d", &target);
-    int count=0, sum_arr[]={0};
+    int count=0, sum_arr[n]={0,0};
     int j;
     for(i=0;i<n;i++) {
         for (j=0;j<n;j++) {
