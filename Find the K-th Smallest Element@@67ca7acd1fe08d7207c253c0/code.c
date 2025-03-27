@@ -1,4 +1,4 @@
-#define int MIN -99999999
+#define int MIN= -99999999
 
 int kthSmallest(int arr[], int n, int k){
     int max=MIN,max_i,i;
