@@ -14,7 +14,7 @@ int mostPlayedGame(int games[], int n) {
     for(i=0;i<n;i++) {
         int counted = indexInArray(count, games[i], n);
         if (!counted) {
-            count[c+2]=games[i];
+            count[c]=games[i];
             c+=2;
         }
         else {
