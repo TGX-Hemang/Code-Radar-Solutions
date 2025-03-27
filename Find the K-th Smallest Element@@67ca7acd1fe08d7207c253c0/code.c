@@ -1,14 +1,14 @@
-#define MIN -99999999
+#define MAX 99999999
 
 int kthSmallest(int arr[], int n, int k){
-    int max, max_i,i;
+    int min, min_i,i;
     while (k--)
     { 
-        max=MIN;
+        min=MIN;
         for(i=0;i<n;i++) {
-            if (max<arr[i]) max=arr[i], max_i=i;
+            if (min>arr[i]) min=arr[i], min_i=i;
         }
-        arr[max_i]=MIN;
+        arr[min_i]=MAX;
     }
-    return max;
+    return min;
 }   
