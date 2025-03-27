@@ -1,6 +1,7 @@
 int findPrankReceiver(int frnds, int gifts, int start) {
+    int st=start;
     while (gifts--) {
-        start++;
+        st = (st>frnds)?start: st+1;
     }
-    return start-1;
+    return st-1;
 }
