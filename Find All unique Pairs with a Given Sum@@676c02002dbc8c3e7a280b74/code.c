@@ -17,7 +17,7 @@ int main() {
     int j;
     for(i=0;i<n;i++) {
         for (j=0;j<n;j++) {
-            if (arr[i]+arr[j]==target && i!=j && InArray(sum_arr, i, n) && InArray(sum_arr, j, n))
+            if (arr[i]+arr[j]==target && i!=j && !InArray(sum_arr, i, n) && !InArray(sum_arr, j, n))
             {sum_arr[count++] = arr[i];
             sum_arr[count++] = arr[j];}
         }
