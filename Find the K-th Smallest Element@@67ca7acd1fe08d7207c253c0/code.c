@@ -2,7 +2,6 @@
 
 int kthSmallest(int arr[], int n, int k){
     int min, min_i,i;
-    if (k>n) return -1;
     while (k--)
     { 
         min=MAX;
@@ -11,5 +10,5 @@ int kthSmallest(int arr[], int n, int k){
         }
         arr[min_i]=MAX;
     }
-    return min;
+    return (k>n)? -1:min;
 }   
