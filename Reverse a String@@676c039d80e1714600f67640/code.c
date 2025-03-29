@@ -7,7 +7,9 @@ int main() {
 
     int i;
     for(i=0;i<strlen(str);i++) {
+        char swap = str[i];
         str[i]=str[strlen(str)-i-1];
+        str[strlen(str)-i-1] = swap;
     }
     printf("%s", str);
 }
