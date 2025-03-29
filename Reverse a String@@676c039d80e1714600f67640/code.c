@@ -7,7 +7,7 @@ int main() {
 
     int i;
     for(i=0;i<strlen(str);i++) {
-        str[i]=str[n-i-1];
+        str[i]=str[strlen(str)-i-1];
     }
     printf("%s", str);
 }
