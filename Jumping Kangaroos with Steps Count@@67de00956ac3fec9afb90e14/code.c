@@ -7,6 +7,7 @@ int kangaroo(int x1, int v1, int x2, int v2) {
     {
             x *= (x<0)?-1:1;
             v *= (v<0)?-1:1;
+            if (x%v!=0) break;
             n = x/v;
     }
    
