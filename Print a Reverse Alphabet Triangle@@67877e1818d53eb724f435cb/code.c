@@ -8,8 +8,7 @@ int main() {
     for (int i=1; i<=n; i++) {
         char c = 'A';
         for (int j=1; j<=n-i+1; j++) {
-            printf("%c ", c);
-            c++;
+            printf("%c ", c++);
         }
         printf("\n");
     }
