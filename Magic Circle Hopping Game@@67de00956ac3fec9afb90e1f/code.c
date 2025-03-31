@@ -1,4 +1,4 @@
-finalEnergy(int clouds[], int n, int k) {
+int finalEnergy(int clouds[], int n, int k) {
     int i;
     int energy = 100;
     for(i=0;i<n;i+=k) {
