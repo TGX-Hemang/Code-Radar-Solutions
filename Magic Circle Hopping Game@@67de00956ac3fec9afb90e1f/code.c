@@ -4,5 +4,5 @@ int finalEnergy(int clouds[], int n, int k) {
     for(i=0;i<n;i+=k) {
         energy -= (clouds[i]==1)?3:1;
     }
-    return energy-1;
+    return energy;
 }
