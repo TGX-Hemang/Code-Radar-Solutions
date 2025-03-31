@@ -3,6 +3,6 @@ int kangaroo(int x1, int v1, int x2, int v2) {
     int v = v2 - v1;
     int n;
     if (x>0 && v>0) 
-    n =  x / v;
+    n = x/v;
     return n;
 }
