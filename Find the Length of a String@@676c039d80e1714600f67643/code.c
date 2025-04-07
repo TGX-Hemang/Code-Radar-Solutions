@@ -4,5 +4,5 @@
 int main() {
     char str[1000];
     fgets(str, sizeof(100), stdin);
-    printf("%d", str.strlen());
+    printf("%d", strlen(str));
 }
