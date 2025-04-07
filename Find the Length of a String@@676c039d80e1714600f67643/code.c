@@ -4,9 +4,5 @@
 int main() {
     char str1[1000];
     fgets(str1, sizeof(1000), stdin);
-    int i=0;
-    while(str1[i]!='') {
-        i++;
-    }
-    printf("%d", i);
+    printf("%d", printf("%s", str1));
 }
