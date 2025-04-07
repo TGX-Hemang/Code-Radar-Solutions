@@ -9,6 +9,6 @@ int main() {
         if (str[i] == ' ' && str[i+1]!=' ' && str[i-1]!=' ') 
             count++;
     }
-    if (count==0) printf("0");
+    if (count==0 && str[0]==' ') printf("0");
     else printf("%d", count+1);
 }
