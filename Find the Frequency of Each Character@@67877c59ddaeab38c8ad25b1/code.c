@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int isInArray(int target, char arr[10][2]) {
     int i;
@@ -9,11 +10,10 @@ int isInArray(int target, char arr[10][2]) {
 }
 
 int main() {
-    int size;
-
+    
     char array[size];
     fgets(array, sizeof(array), stdin);
-    
+    int size = strlen(array);
     int ind=0, r, c;
     char count[10][2];
     for(r=0;r<10;r++) {
