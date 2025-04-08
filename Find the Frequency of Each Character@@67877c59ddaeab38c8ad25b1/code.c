@@ -11,7 +11,7 @@ int isInArray(int target, char arr[10][2]) {
 
 int main() {
     
-    char array[size];
+    char array[1000];
     fgets(array, sizeof(array), stdin);
     int size = strlen(array);
     int ind=0, r, c;
