@@ -6,7 +6,7 @@ int main() {
     scanf("%s", &s1);
     scanf("%s", &s2);
     int i;
-    for(i=0;i<strlen(s1);i++) {
+    for(i=0;i<100;i++) {
         printf("%c", s1[i]);
     }
     for(i=0;i<strlen(s2);i++) {
