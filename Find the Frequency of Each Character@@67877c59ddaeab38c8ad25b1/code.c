@@ -17,7 +17,7 @@ int main() {
     int ind=0, r, c;
     char count[10][2];
     for(r=0;r<10;r++) {
-        for(c=0;c<2;c++) count[r][c]='a';
+        for(c=0;c<2;c++) count[r][c]='0';
     }
     
     for(r=0;r<size;r++) {
